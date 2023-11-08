@@ -1,0 +1,305 @@
+.buttons-container >button,
+  a,
+  input[type="submit"] {
+
+    @apply mt-3 md:mt-0;
+  }
+
+
+    .btn{
+        @apply inline-block text-white text-sm font-medium px-5 py-2 cursor-pointer border-0
+        capitalize;
+    
+    }
+    .btn-primary {
+        @apply bg-blue-500;
+
+    }
+    .btn-dark {
+        @apply
+        bg-black;
+    }
+
+    .btn-warning {
+        @apply
+                bg-red-500;
+            }
+            
+    .btn-success {
+        @apply
+                bg-orange-200;
+             }
+
+    .btn-danger {
+        @apply
+               bg-green-200;
+            }       
+             
+            .btn-purple {
+         @apply
+             bg-yellow-300;
+          } 
+          
+          .btn-indigo{
+            @apply
+                bg-purple-400;
+             } 
+
+
+          /* shadow buttons */
+          .primary-shadow {
+
+            @apply shadow-lg shadow-blue-500/50;
+          }
+
+          .dark-shadow {
+
+            @apply shadow-lg shadow-black;
+          }
+
+          .warning-shadow {
+
+            @apply shadow-lg shadow-red-500/50;
+          }
+
+          .success-shadow {
+
+            @apply shadow-lg shadow-orange-500/50;
+          }
+
+          .danger-shadow {
+
+            @apply shadow-lg shadow-green-500/50;
+          }
+
+          .purple-shadow {
+
+            @apply shadow-lg shadow-yellow-500/50;
+          }
+
+          .indigo-shadow {
+
+            @apply shadow-lg shadow-purple-500/50;
+          }
+
+
+    /* ring classes */
+    .primary-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-blue-500/50 transition-all;
+      }      
+
+      .dark-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-black transition-all;
+      }   
+      
+      .warning-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-red-500/60 transition-all;
+      }   
+
+      .success-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-orange-400/70 transition-all;
+      }   
+
+      .danger-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-green-400/70 transition-all;
+      }   
+
+      .purple-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-yellow-400/80 transition-all;
+      }   
+
+      .indigo-ring {
+
+        @apply focus:ring-2 ring-offset-2 ring-purple-400/70 transition-all;
+      }  
+      
+      /* material classes */
+    .material{
+
+        @apply shadow-sm shadow-black/40  uppercase relative before:absolute before:w-full before:h-full before:inset-0 before:bg-white/40 before:scale-0 hover:before:scale-100 before:transition-all before:rounded-full hover:before:rounded-none ;
+      } 
+
+      /* Sweet buttons*/
+      .sweet-primary{
+
+        @apply bg-transparent text-black border-[3px] hover:bg-blue-500 border-black relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-blue-500 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-blue-300;
+
+
+      }
+
+      .sweet-dark{
+
+        @apply bg-transparent text-black border-[3px] hover:bg-black border-black relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-black/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-black/70;
+
+
+      }
+
+
+      .sweet-warning{
+
+        @apply bg-transparent text-black border-[3px] border-red-600 relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-red-600/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-red-500/70;
+
+
+      }
+
+      .sweet-success{
+
+        @apply bg-transparent text-black border-[3px] border-orange-300 relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-orange-300/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-orange-300/70;
+
+
+      }
+
+      .sweet-danger{
+
+        @apply bg-transparent text-black border-[3px] border-green-600 relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-green-600/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-green-500/70;
+
+
+      }
+
+      .sweet-purple{
+
+        @apply bg-transparent text-black border-[3px] border-yellow-400 relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-yellow-400/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-yellow-400/70;
+
+
+      }
+
+      .sweet-indigo{
+
+        @apply bg-transparent text-black border-[3px] border-purple-400 relative before:absolute 
+        before:w-full before:h-full before:bottom-2 before:right-2 before:bg-purple-400/70 before:-z-10 hover:before:bottom-0 
+        hover:before:right-0 before:transition-all hover:text-white duration-500 hover:border-purple-400/70;
+
+
+      }
+
+      /*outline buttons */
+
+      .outline-primary{
+      @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
+
+      }
+      .outline-dark{
+        @apply bg-transparent border-[1.5px] border-black text-black;
+  
+        }
+
+        .outline-warning{
+          @apply bg-transparent border-[1.5px] border-red-700 text-red-700;
+    
+          }
+
+          .outline-success{
+            @apply bg-transparent border-[1.5px] border-orange-500 text-orange-500;
+      
+            }
+
+            .outline-danger{
+              @apply bg-transparent border-[1.5px] border-green-500 text-green-500;
+        
+              }
+
+              .outline-purple{
+                @apply bg-transparent border-[1.5px] border-yellow-500 text-yellow-500;
+          
+                }
+
+                .outline-indigo{
+                  @apply bg-transparent border-[1.5px] border-purple-500 text-purple-500;
+            
+                  }
+
+                  .outline-primary{
+                    @apply bg-transparent border-[1.5px] border-blue-500 text-blue-500;
+              
+                    }
+
+  /* smart buttons*/
+  .smart-primary{
+
+@apply bg-blue-100 text-blue-700;
+  }
+
+  .smart-dark{
+
+    @apply bg-black/5 text-black;
+      }
+
+      .smart-warning{
+
+        @apply bg-red-100 text-red-700;
+          }
+
+          .smart-success{
+
+            @apply bg-orange-100 text-orange-700;
+              }
+
+              .smart-danger{
+
+                @apply bg-green-100 text-green-700;
+                  }
+
+
+                  .smart-purple{
+
+                    @apply bg-yellow-100 text-yellow-500;
+                      }
+
+
+                      .smart-indigo{
+
+                        @apply bg-purple-500 text-purple-700;
+                          }
+
+/* gradient buttons*/
+                          .gradient-primary{
+                            @apply bg-gradient-to-r from-blue-500 to-blue-100;
+                          }
+                          .gradient-dark{
+                            @apply bg-gradient-to-r from-black to-black/10;
+                          }
+                          .gradient-warning{
+                            @apply bg-gradient-to-r from-red-500 to-red-100;
+                          }
+                          .gradient-success{
+                            @apply bg-gradient-to-r from-orange-500 to-orange-100;
+                          }
+                          .gradient-danger{
+                            @apply bg-gradient-to-r from-green-500 to-green-100;
+                          }
+                          .gradient-purple{
+                            @apply bg-gradient-to-r from-yellow-500 to-yellow-100;
+                          }
+                          .gradient-indigo{
+                            @apply bg-gradient-to-r from-purple-500 to-purple-100;
+                          }
+                          
+
+/* loading spinner*/
+
+.spinner{
+  @apply block w-5 h-5 rounded-full border-[3px] border-t-black/10 border-r-black/10 animate-spin;
+}
+
+/* Block buttons*/
+.btn-block{
+  @apply block w-full text-base py-3;
+}
